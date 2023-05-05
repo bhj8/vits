@@ -3,7 +3,7 @@ import cn2an
 import opencc
 
 
-converter = opencc.OpenCC('jyutjyu')
+converter = opencc.OpenCC('t2s.json')
 
 # List of (Latin alphabet, ipa) pairs:
 _latin_to_ipa = [(re.compile('%s' % x[0]), x[1]) for x in [
